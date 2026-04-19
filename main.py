@@ -15,18 +15,24 @@ def count_result():
         second = float(splitted_text[1])
         result = first + second
         print(result)
+        clear()
+        entry.insert(0, result)
     if "-" in  text:
         splitted_text = text.split("-")
         first = float(splitted_text[0])
         second = float(splitted_text[1])
         result = first - second
         print(result)
+        clear()
+        entry.insert(0, result)
     if "/" in  text:
         splitted_text = text.split("/")
         first = float(splitted_text[0])
         second = float(splitted_text[1])
         result = first / second
         print(result)
+        clear()
+        entry.insert(0, result)
     if "*" in  text:
         splitted_text = text.split("*")
         first = float(splitted_text[0])
